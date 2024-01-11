@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 40px;
+    font-size: 38px;
+    font-family: 'Caveat', cursive;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo-container h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+}
+
+.sidebar {
+    background: #071272;
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Caveat', cursive;
+}
+
+.main-img {
+    width: 40%;
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
+
+.main-title {
+    transform: rotate(-90deg);
+    margin-top: 10rem;
+    font-size: 5rem;
+    font-family: 'Caveat', cursive;
+}
+
+.main-info {
+    transform: rotate(-90deg);
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 5rem;
+    margin-left: 7rem;
+}
